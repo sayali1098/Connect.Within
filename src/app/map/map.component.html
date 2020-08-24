@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+<!-- Map api -->
+<div class="bg">
+  <h1>{{ texto }}</h1>
+
+  <agm-map [latitude]="lat" [longitude]="lng" (mapClick)="onChoseLocation($event)">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map>
+</div>
+<app-footer></app-footer>

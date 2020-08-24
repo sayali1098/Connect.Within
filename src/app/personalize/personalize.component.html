@@ -1,0 +1,75 @@
+<app-navbar></app-navbar>
+
+
+
+<div class="bg">
+  <!-- Meditaion Workshops -->
+  <div class="program">
+    <h1>Meditation Programs</h1>
+  </div>
+  <hr width="100" color="white">
+
+  <div class="page">
+    <ul class='list'>
+      <li class="grid" *ngFor='let medit of medits'>
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title class="title">{{medit.title}}</mat-card-title>
+            <!-- <mat-card-subtitle>{{medit.category}}</mat-card-subtitle> -->
+          </mat-card-header>
+          <img mat-card-image src="{{medit.image}}" alt="meditation image">
+          <mat-card-content>
+            <p>{{medit.description}}</p>
+          </mat-card-content>
+          <a href="{{medit.url}}"><button class="read" mat-button>View Details</button></a>
+        </mat-card>
+      </li>
+    </ul>
+  </div>
+  <!-- Yoga Workshops -->
+  <div class="program">
+    <h1 class="workshop">All about YOGA!</h1>
+  </div>
+  <hr width="100" color="white">
+
+  <div class="page">
+    <ul class='list'>
+      <li class="grid" *ngFor='let yog of yoga'>
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title class="title">{{yog.title}}</mat-card-title>
+            <!-- <mat-card-subtitle>{{medit.category}}</mat-card-subtitle> -->
+          </mat-card-header>
+          <img mat-card-image src="{{yog.image}}" alt="meditation image">
+          <mat-card-content>
+            <p>{{yog.description}}</p>
+          </mat-card-content>
+          <a href="{{yog.url}}"><button class="read" mat-button>View Details</button></a>
+        </mat-card>
+      </li>
+    </ul>
+  </div>
+  <!-- Prenatal Package -->
+  <div class="program1">
+    <h1 class="prenatal">Prenatal and Postnatal Programs & Packages</h1>
+  </div>
+  <hr width="100" color="white">
+
+  <div class="page">
+    <ul class='list'>
+      <li class="grid" *ngFor='let preg of pregs'>
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title class="title1">{{preg.title}}</mat-card-title>
+            <!-- <mat-card-subtitle>{{medit.category}}</mat-card-subtitle> -->
+          </mat-card-header>
+          <img mat-card-image src="{{preg.image}}" alt="meditation image">
+          <mat-card-content>
+            <p>{{preg.description}}</p>
+          </mat-card-content>
+          <a href="{{preg.url}}"><button class="read" mat-button>View Details</button></a>
+        </mat-card>
+      </li>
+    </ul>
+  </div>
+</div>

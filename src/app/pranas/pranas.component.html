@@ -1,0 +1,24 @@
+  <section id="pranas">
+    <div class="program">
+      <h1 class="head3">Pranayam</h1>
+    </div>
+    <hr width="100" color="white" />
+    <!-- <ng-image-slider [images]="imageObject4" #nav></ng-image-slider> -->
+    <div class="page">
+      <ul class="list">
+        <li class="grid" *ngFor="let pranayam of pranas">
+          <mat-card class="example-card">
+            <mat-card-header>
+              <!-- <mat-card-title class="title">{{pranayam.title}}</mat-card-title> -->
+              <!-- <mat-card-subtitle>{{medit.category}}</mat-card-subtitle> -->
+            </mat-card-header>
+            <img mat-card-image src="{{ pranayam.image }}" alt="meditation image" />
+            <mat-card-content>
+              <p>{{ pranayam.description }}</p>
+            </mat-card-content>
+            <a href="{{ pranayam.url }}"><button class="read" mat-button>Read More</button></a>
+          </mat-card>
+        </li>
+      </ul>
+    </div>
+  </section>

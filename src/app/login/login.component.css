@@ -1,0 +1,93 @@
+.form-body {
+  /* margin: 10px; */
+  width: 40%;
+  box-shadow: rgb(1, 1, 46);
+  border-radius: 5%;
+  background-color: white;
+  background-color: rgb(175, 219, 88);
+  background-color: rgb(195, 255, 55);
+  margin-left: 30%;
+  margin-right: 18%;
+  margin-top: 10%;
+  margin-bottom: 25%;
+}
+
+#myform {
+  /* position: absolute; */
+  padding: 5px;
+  /* margin-left: 40%; */
+}
+
+p {
+  font-family: "Handlee", cursive;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  /* color: rgb(12, 62, 119); */
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 400px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding: 6px;
+  margin-bottom: 15px;
+  color: black;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  /* background: linear-gradient(to bottom, #f86e12 0%, #f86e12 100%); */
+  background-color: rgb(12, 62, 119);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  position: relative;
+  /* border-bottom: 4px solid #f85312; */
+  font-weight: 500;
+  font-family: "Handlee", cursive;
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, .4); */
+  font-size: 15px;
+  text-align: center;
+  /* text-indent: 5px; */
+  /* box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, .2); */
+  cursor: pointer;
+  /* display: block; */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: greenyellow;
+  color: black;
+  font-weight: 900;
+}
+
+input::placeholder {
+  color: black;
+}

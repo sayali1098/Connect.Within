@@ -1,0 +1,72 @@
+<app-navbar></app-navbar>
+<div>
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[7]" width="1400" height="540" alt="third slide" />
+      </div>
+      <div class="carousel-caption">
+        <h2>Combat The Crisis With Our Therapies!
+          You will need these in the post-COVID World!
+        </h2>
+
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[0]" width="1400" height="540" alt="third slide" />
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[1]" alt="first slide" width="1400" height="540" />
+      </div>
+      <div class="carousel-caption">
+        <h2>Personalized Yoga Workshops especially for you!</h2>
+        <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img width="1400" height="540" [src]="images[2]" alt="fourth slide" />
+      </div>
+      <div class="carousel-caption">
+        <h2 class="quote">Short Guided Meditations to enhance your productivity!</h2>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[3]" alt="fifth slide" width="1400" height="540" />
+      </div>
+      <div class="carousel-caption">
+        <h2 class="run">RUN. It releases more than just SWEAT!</h2>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[4]" alt="sixth slide" width="1400" height="540" />
+      </div>
+      <div class="carousel-caption">
+        <h2 class="quote">Smile, Laughter and Meditation are privileges of Human Life! </h2>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[5]" alt="seventh slide" width="1400" height="540" />
+      </div>
+      <div class="carousel-caption">
+        <h2 class="quote1">Be Young at Heart Forever!</h2>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[6]" alt="second slide" width="1400" height="540" />
+      </div>
+      <div class="carousel-caption">
+        <h2 class="quote1">When you LAUGH More you Remember More! </h2>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

@@ -1,0 +1,25 @@
+/* .footer-section {
+
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font-weight: 600;
+  font-size: 2em;
+  padding: 10px;
+} */
+
+mat-card {
+  font-family: "Handlee",
+    cursive;
+  height: 4em;
+  display: flex;
+  padding-left: 35px;
+  justify-content: flex-start;
+  background-color: #272727;
+  color: white;
+}
+
+.h3 {
+  font-size: 1.2em;
+}

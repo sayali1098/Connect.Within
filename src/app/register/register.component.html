@@ -1,0 +1,78 @@
+<!-- <div class="container1">
+  <div class="form-container1">
+    <span>Start My Journey</span>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Username">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Email">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Password">
+    </mat-form-field>
+
+    <a href="#" routerLink="/logreg">
+      <button mat-raised-button class="explore">Let's Begin!</button>
+    </a>
+  </div>
+</div> -->
+<div>
+  <div class="form-body">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" id="#myform">
+      <p>Start My Journey!</p>
+
+      <div class="form-row">
+        <div>
+          <input
+            type="text"
+            formControlName="firstName"
+            class="form-control"
+            placeholder="Full Name"
+            [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }"
+          />
+          <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+            <div *ngIf="f.firstName.errors.required">Name is required</div>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <input
+          type="text"
+          formControlName="email"
+          class="form-control"
+          placeholder="Email"
+          [ngClass]="{ 'is-invalid': submitted && f.email.errors }"
+        />
+        <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+          <div *ngIf="f.email.errors.required">Email is required</div>
+          <div *ngIf="f.email.errors.email">
+            Email must be a valid email address
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col">
+          <input
+            type="password"
+            formControlName="password"
+            class="form-control"
+            placeholder="Password"
+            [ngClass]="{ 'is-invalid': submitted && f.password.errors }"
+          />
+          <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+            <div *ngIf="f.password.errors.required">Password is required</div>
+            <div *ngIf="f.password.errors.minlength">
+              Password must be at least 6 characters
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text">
+        <button routerLink="/logreg">Let's Begin</button>
+        <button type="reset" (click)="onReset()">Reset</button>
+      </div>
+    </form>
+  </div>
+</div>

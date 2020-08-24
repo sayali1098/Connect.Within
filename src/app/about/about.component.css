@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Asap:wght@500&family=Courgette&display=swap');
+
+.main {
+  background: url('../../assets/sunset.jpg');
+  /* height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+#story {
+  /* background: yellowgreen; */
+  display: flex;
+  align-items: center;
+}
+
+#story article * {
+  margin: 10px;
+}
+
+.break {
+  display: block;
+}
+
+.image {
+  width: 400px;
+  height: 100%;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+p {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Alegreya Sans', sans-serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 2.9em;
+  /* font-family: "Handlee", cursive; */
+  color: black;
+}
+
+hr {
+  color: rgb(255, 255, 255);
+  width: 95%;
+}

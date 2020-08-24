@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.nav-container {
+  background: rgb(49, 47, 47);
+}
+
+.name {
+  color: white;
+  font-family: "Handlee", cursive;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+
+li a {
+  font-family: "Handlee", cursive;
+  /* font-family: "Nunito Sans", sans-serif; */
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+  padding: 1em;
+}
+
+h2 {
+  color: rgba(19, 22, 0, 0.986);
+  margin-bottom: 30%;
+  margin-left: 10%;
+  font-family: "Handlee", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  /* float: left; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.quote {
+  color: rgba(0, 0, 0, 0.986);
+  margin-bottom: 35%;
+  margin-left: 5%;
+  font-family: "Handlee",
+    cursive;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.quote1 {
+  color: rgba(0, 0, 0, 0.986);
+  margin-bottom: 40%;
+  margin-left: 5%;
+  font-family: "Handlee",
+    cursive;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.run {
+  color: rgba(0, 0, 0, 0.986);
+  margin-bottom: 5%;
+
+  margin-left: 30%;
+  font-family: "Handlee",
+    cursive;
+  font-size: 40px;
+  font-weight: bold;
+
+}

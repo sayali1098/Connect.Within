@@ -1,0 +1,95 @@
+<app-navbar></app-navbar>
+
+<div class="bg">
+  <!-- nav link -->
+  <!-- <nav>
+    <ul>
+      <li><a href="collections/#surya" class="navlink">Suryanamaskar</a></li>
+      <li><a href="collections/#mudras" class="navlink">Yog-Mudras</a></li>
+      <li><a href="collections/#asanas" class="navlink">Yogasanas</a></li>
+      <li><a href="collections/#pranas" class="navlink">Pranayam</a></li>
+      <li><a href="collections/#life" class="navlink">Wellness Tips</a></li>
+    </ul>
+  </nav> -->
+
+  <!-- routerLink="surya"
+  routerLink="mudras"
+  routerLink="asanas"
+  routerLink="pranas" -->
+
+
+  <nav>
+    <ul>
+      <li><a routerLink="surya" class="navlink">Suryanamaskar</a></li>
+      <li><a routerLink="mudras" class="navlink">Yog-Mudras</a></li>
+      <li><a routerLink="asanas" class="navlink">Yogasanas</a></li>
+      <li><a routerLink="pranas" class="navlink">Pranayam</a></li>
+    </ul>
+  </nav>
+
+  <router-outlet></router-outlet>
+  <app-surya></app-surya>
+  <app-mudras></app-mudras>
+  <app-asanas></app-asanas>
+  <app-pranas></app-pranas>
+
+  <!-- Suryanamskar -->
+  <!-- <section id="surya">
+    <div class="program">
+      <h1>Suryanamaskar</h1>
+    </div>
+    <hr width="100" color="white" />
+    <ng-image-slider [images]="imageObject1" #nav></ng-image-slider>
+  </section> -->
+
+  <!-- Yog-Mudras -->
+  <!-- <section id="mudras">
+    <div class="program">
+      <h1 class="he">Yog-Mudras</h1>
+    </div>
+    <hr width="100" color="white" />
+    <ng-image-slider [images]="imageObject" #nav></ng-image-slider>
+  </section> -->
+
+  <!-- Standing -->
+  <!-- <section id="asanas">
+    <div class="program1">
+      <h1 class="head">Standing Asanas</h1>
+    </div>
+    <hr width="100" color="white" />
+    <ng-image-slider [images]="imageObject2" #nav></ng-image-slider> -->
+
+  <!-- Sitting -->
+  <!-- <div class="program2">
+      <h1 class="head2">Sitting Asanas</h1>
+    </div>
+    <hr width="100" color="white" />
+    <ng-image-slider [images]="imageObject3" #nav></ng-image-slider>
+  </section> -->
+
+  <!-- Pranayam -->
+  <!-- <section id="pranas">
+    <div class="program">
+      <h1 class="head3">Pranayam</h1>
+    </div>
+    <hr width="100" color="white" /> -->
+  <!-- <ng-image-slider [images]="imageObject4" #nav></ng-image-slider> -->
+  <!-- <div class="page">
+      <ul class="list">
+        <li class="grid" *ngFor="let pranayam of pranas">
+          <mat-card class="example-card">
+            <mat-card-header> -->
+  <!-- <mat-card-title class="title">{{pranayam.title}}</mat-card-title> -->
+  <!-- <mat-card-subtitle>{{medit.category}}</mat-card-subtitle> -->
+  <!-- </mat-card-header>
+            <img mat-card-image src="{{ pranayam.image }}" alt="meditation image" />
+            <mat-card-content>
+              <p>{{ pranayam.description }}</p>
+            </mat-card-content>
+            <a href="{{ pranayam.url }}"><button class="read" mat-button>Read More</button></a>
+          </mat-card>
+        </li>
+      </ul>
+    </div>
+  </section> -->
+</div>

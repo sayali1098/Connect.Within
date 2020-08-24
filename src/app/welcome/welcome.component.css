@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+.container1 {
+  background-image: url("../../assets/wallpaper1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  padding: 0 46%;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: lighter;
+  font-family: "Handlee", cursive;
+  color: rgb(0, 0, 95);
+  display: flex;
+  align-self: center;
+  padding: 0 36%;
+}
+
+.caption {
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 2px;
+  /* line-height: 55px; */
+  left: 32%;
+  color: rgb(0, 0, 95);
+  font-size: 1.3em;
+}
+
+.explore {
+  font-family: "Handlee", cursive;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(1, 1, 46);
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.explore:hover {
+  box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: greenyellow;
+  /* background-color: rgb(250, 250, 0); */
+  /* background-color: rgb(23, 19, 34); */
+  color: black;
+  font-weight: 900;
+}
+
+.explore:focus {
+  outline: 0;
+}

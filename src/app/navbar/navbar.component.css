@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.nav-container {
+  background: rgb(49, 47, 47);
+}
+
+.name {
+  color: white;
+  font-family: "Handlee", cursive;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+
+li a {
+  font-family: "Handlee", cursive;
+  /* font-family: "Nunito Sans", sans-serif; */
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+  padding: 1em;
+  /* margin-bottom: 0em;
+  padding-bottom: 0em; */
+}
+
+.menu {
+  background: rgb(49, 47, 47);
+  font-family: "Handlee",
+    cursive;
+  font-size: 1.2em;
+  color: white;
+  /* padding-bottom: 0.5em; */
+}
+
+/* .email {
+ 
+} */
